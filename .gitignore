@@ -29,6 +29,3 @@
 *.out
 *.app
 *.pdb
-
-#Folder
-External/assimp/lib/x64/Debug/assimp.lib
