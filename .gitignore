@@ -29,3 +29,6 @@
 *.exe
 *.out
 *.app
+
+#Folder
+External/assimp/lib/x64/Debug/assimp.lib
