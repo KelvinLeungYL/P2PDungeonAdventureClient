@@ -14,7 +14,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -29,6 +28,7 @@
 *.exe
 *.out
 *.app
+*.pdb
 
 #Folder
 External/assimp/lib/x64/Debug/assimp.lib
