@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugWin7|Win32">
+      <Configuration>DebugWin7</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugWin7|x64">
+      <Configuration>DebugWin7</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{de48baee-0a5f-40ab-a811-4bf144b41195}</ProjectGuid>
+    <RootNamespace>Game</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Game</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>obj\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">
+    <OutDir>bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>obj\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>obj\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\Source;.\External\imgui-docking;.\External\assimp\include;.\External\stb;.\External\cereal\include;.\TeNTaCleLib;.\TeNTaCleLib\SDL2\include;.\External\Effekseer162a\include;.\External\nlohmann;.\External\openssl\include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\External\assimp\lib\$(Platform)\$(Configuration);.\TeNTaCleLib\SDL2\lib\$(PlatformTarget)\;.\External\Effekseer162a\lib\vs2019\MD\$(PlatformTarget)\$(Configuration);.\External\nlohmann;%(AdditionalLibraryDirectories);.\External\openssl\$(PlatformTarget)\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+      <ObjectFileOutput>Data\Shader\%(Filename).cso</ObjectFileOutput>
+      <AssemblerOutputFile>Data\Shader\%(Filename).cod</AssemblerOutputFile>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\Source;.\External\imgui-docking;.\External\assimp\include;.\External\stb;.\External\cereal\include;.\TeNTaCleLib;.\TeNTaCleLib\SDL2\include;.\External\Effekseer162a\include;.\External\nlohmann;.\External\openssl\include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\External\assimp\lib\$(Platform)\$(Configuration);.\TeNTaCleLib\SDL2\lib\$(PlatformTarget)\;.\External\Effekseer162a\lib\vs2019\MD\$(PlatformTarget)\$(Configuration);%(AdditionalLibraryDirectories);.\External\openssl\$(PlatformTarget)\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+      <ObjectFileOutput>Data\Shader\%(Filename).cso</ObjectFileOutput>
+      <AssemblerOutputFile>Data\Shader\%(Filename).cod</AssemblerOutputFile>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\Source;.\External\imgui-docking;.\External\assimp\include;.\External\stb;.\External\cereal\include;.\TeNTaCleLib;.\TeNTaCleLib\SDL2\include;.\External\Effekseer162a\include;.\External\nlohmann;.\External\openssl\include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\External\assimp\lib\$(Platform)\$(Configuration);.\TeNTaCleLib\SDL2\lib\$(PlatformTarget)\;.\External\Effekseer162a\lib\vs2019\MD\$(PlatformTarget)\$(Configuration);.\External\nlohmann;%(AdditionalLibraryDirectories);.\External\openssl\$(PlatformTarget)\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+      <ObjectFileOutput>Data\Shader\%(Filename).cso</ObjectFileOutput>
+      <AssemblerOutputFile>Data\Shader\%(Filename).cod</AssemblerOutputFile>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="External\imgui-docking\imgui.cpp" />
+    <ClCompile Include="External\imgui-docking\imgui_demo.cpp" />
+    <ClCompile Include="External\imgui-docking\imgui_draw.cpp" />
+    <ClCompile Include="External\imgui-docking\imgui_impl_dx11.cpp" />
+    <ClCompile Include="External\imgui-docking\imgui_impl_win32.cpp" />
+    <ClCompile Include="External\imgui-docking\imgui_tables.cpp" />
+    <ClCompile Include="External\imgui-docking\imgui_widgets.cpp" />
+    <ClCompile Include="External\imgui-docking\profiler.cpp" />
+    <ClCompile Include="External\imgui-docking\imgTimer.cpp" />
+    <ClCompile Include="Source\Arrow.cpp" />
+    <ClCompile Include="Source\Barbarian.cpp" />
+    <ClCompile Include="Source\BarbarianState.cpp" />
+    <ClCompile Include="Source\BoundingBoxCollider.cpp" />
+    <ClCompile Include="Source\Camera.cpp" />
+    <ClCompile Include="Source\CameraController.cpp" />
+    <ClCompile Include="Source\Character.cpp" />
+    <ClCompile Include="Source\Chest.cpp" />
+    <ClCompile Include="Source\ChestState.cpp" />
+    <ClCompile Include="Source\ClientNetworkController.cpp" />
+    <ClCompile Include="Source\Collider.cpp" />
+    <ClCompile Include="Source\Collision.cpp" />
+    <ClCompile Include="Source\CollisionDataManager.cpp" />
+    <ClCompile Include="Source\Dialog.cpp" />
+    <ClCompile Include="Source\Effect.cpp" />
+    <ClCompile Include="Source\EffectManager.cpp" />
+    <ClCompile Include="Source\Enemy.cpp" />
+    <ClCompile Include="Source\EnemyManager.cpp" />
+    <ClCompile Include="Source\EnemyState.cpp" />
+    <ClCompile Include="Source\Framework.cpp" />
+    <ClCompile Include="Source\FreeCameraController.cpp" />
+    <ClCompile Include="Source\GameData.cpp" />
+    <ClCompile Include="Source\GameObject.cpp" />
+    <ClCompile Include="Source\Grenade.cpp" />
+    <ClCompile Include="Source\HostNetworkController.cpp" />
+    <ClCompile Include="Source\ImGuiRenderer.cpp" />
+    <ClCompile Include="Source\Knight.cpp" />
+    <ClCompile Include="Source\KnightState.cpp" />
+    <ClCompile Include="Source\Mage.cpp" />
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\Map001.cpp" />
+    <ClCompile Include="Source\Map001BossRoomTeleport.cpp" />
+    <ClCompile Include="Source\Map001Key.cpp" />
+    <ClCompile Include="Source\MapCollisionManager.cpp" />
+    <ClCompile Include="Source\MapTile.cpp" />
+    <ClCompile Include="Source\MapTileManager.cpp" />
+    <ClCompile Include="Source\ModelCollider.cpp" />
+    <ClCompile Include="Source\ModelObject.cpp" />
+    <ClCompile Include="Source\Player.cpp" />
+    <ClCompile Include="Source\PlayerCollisionObject.cpp" />
+    <ClCompile Include="Source\PlayerManager.cpp" />
+    <ClCompile Include="Source\PlayerState.cpp" />
+    <ClCompile Include="Source\Projectile.cpp" />
+    <ClCompile Include="Source\Rogue.cpp" />
+    <ClCompile Include="Source\RogueState.cpp" />
+    <ClCompile Include="Source\Scene.cpp" />
+    <ClCompile Include="Source\SceneGame.cpp" />
+    <ClCompile Include="Source\SceneGameState.cpp" />
+    <ClCompile Include="Source\SceneLoading.cpp" />
+    <ClCompile Include="Source\SceneManager.cpp" />
+    <ClCompile Include="Source\SceneTitle.cpp" />
+    <ClCompile Include="Source\SceneTitleState.cpp" />
+    <ClCompile Include="Source\SkeletonMinion.cpp" />
+    <ClCompile Include="Source\SkeletonMinionState.cpp" />
+    <ClCompile Include="Source\SphereCollider.cpp" />
+    <ClCompile Include="Source\Stage.cpp" />
+    <ClCompile Include="Source\StageManager.cpp" />
+    <ClCompile Include="Source\StateMachine.cpp" />
+    <ClCompile Include="Source\TestingStage.cpp" />
+    <ClCompile Include="Source\ThridPersonCameraController.cpp" />
+    <ClCompile Include="Source\TwoHandedAxe.cpp" />
+    <ClCompile Include="Source\UIManager.cpp" />
+    <ClCompile Include="Source\UnrotatedBoxCollider.cpp" />
+    <ClCompile Include="Source\url.cpp" />
+    <ClCompile Include="Source\WidgetBossHp.cpp" />
+    <ClCompile Include="Source\WidgetButton.cpp" />
+    <ClCompile Include="Source\WidgetButtonImage.cpp" />
+    <ClCompile Include="Source\WidgetButtonText.cpp" />
+    <ClCompile Include="Source\WidgetCrosshair.cpp" />
+    <ClCompile Include="Source\WidgetDragFloat.cpp" />
+    <ClCompile Include="Source\WidgetEnemiesHp.cpp" />
+    <ClCompile Include="Source\WidgetGem.cpp" />
+    <ClCompile Include="Source\WidgetImage.cpp" />
+    <ClCompile Include="Source\WidgetInputBool.cpp" />
+    <ClCompile Include="Source\WidgetLogin.cpp" />
+    <ClCompile Include="Source\WidgetMenu.cpp" />
+    <ClCompile Include="Source\WidgetPlayerHP.cpp" />
+    <ClCompile Include="Source\WidgetRoomOption.cpp" />
+    <ClCompile Include="Source\WidgetSettingWindow.cpp" />
+    <ClCompile Include="Source\WidgetSkillTimer.cpp" />
+    <ClCompile Include="Source\WidgetText.cpp" />
+    <ClCompile Include="TeNTaCleLib\Audio.cpp" />
+    <ClCompile Include="TeNTaCleLib\Console.cpp" />
+    <ClCompile Include="TeNTaCleLib\Encode.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\AssimpImporter.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\ColorGradingShader.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\DebugRenderer.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\FinalpassShader.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\FrameBuffer.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\GaussianBlurShader.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\Gizmos.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\GpuResourceUtils.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\Graphics.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\Light.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\LightManager.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\LineRenderer.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\LuminanceExtractionShader.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\MaskShader.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\Model.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\ModelResource.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\ModelShader.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\PhongShader.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\PostEffect.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\PostprocessingRenderer.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\RenderState.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\ResourceManager.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\SkydomeShader.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\Sprite.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\SpriteShader.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\TextSprite.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\ToonShader.cpp" />
+    <ClCompile Include="TeNTaCleLib\Graphics\UVScrollShader.cpp" />
+    <ClCompile Include="TeNTaCleLib\Input.cpp" />
+    <ClCompile Include="TeNTaCleLib\Mathf.cpp" />
+    <ClCompile Include="TeNTaCleLib\Network\HttpRequest.cpp" />
+    <ClCompile Include="TeNTaCleLib\Network\Network.cpp" />
+    <ClCompile Include="TeNTaCleLib\Network\Socket.cpp" />
+    <ClCompile Include="TeNTaCleLib\Network\TCPSocket.cpp" />
+    <ClCompile Include="TeNTaCleLib\Network\UDPSocket.cpp" />
+    <ClCompile Include="TeNTaCleLib\tentacle_lib.cpp" />
+    <ClCompile Include="TeNTaCleLib\Timer.cpp" />
+    <ClCompile Include="TeNTaCleLib\TransformUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="External\imgui-docking\imconfig.h" />
+    <ClInclude Include="External\imgui-docking\imgui.h" />
+    <ClInclude Include="External\imgui-docking\imgui_impl_dx11.h" />
+    <ClInclude Include="External\imgui-docking\imgui_impl_win32.h" />
+    <ClInclude Include="External\imgui-docking\imgui_internal.h" />
+    <ClInclude Include="External\imgui-docking\imstb_rectpack.h" />
+    <ClInclude Include="External\imgui-docking\imstb_textedit.h" />
+    <ClInclude Include="External\imgui-docking\imstb_truetype.h" />
+    <ClInclude Include="External\imgui-docking\profiler.h" />
+    <ClInclude Include="External\imgui-docking\imgTimer.h" />
+    <ClInclude Include="Source\Arrow.h" />
+    <ClInclude Include="Source\Barbarian.h" />
+    <ClInclude Include="Source\BarbarianState.h" />
+    <ClInclude Include="Source\BaseState.h" />
+    <ClInclude Include="Source\BoundingBoxCollider.h" />
+    <ClInclude Include="Source\Camera.h" />
+    <ClInclude Include="Source\CameraController.h" />
+    <ClInclude Include="Source\Character.h" />
+    <ClInclude Include="Source\Chest.h" />
+    <ClInclude Include="Source\ChestState.h" />
+    <ClInclude Include="Source\Collider.h" />
+    <ClInclude Include="Source\Collision.h" />
+    <ClInclude Include="Source\CollisionDataManager.h" />
+    <ClInclude Include="Source\Dialog.h" />
+    <ClInclude Include="Source\Effect.h" />
+    <ClInclude Include="Source\EffectManager.h" />
+    <ClInclude Include="Source\Enemy.h" />
+    <ClInclude Include="Source\EnemyManager.h" />
+    <ClInclude Include="Source\EnemyState.h" />
+    <ClInclude Include="Source\Framework.h" />
+    <ClInclude Include="Source\FreeCameraController.h" />
+    <ClInclude Include="Source\GameData.h" />
+    <ClInclude Include="Source\GameObject.h" />
+    <ClInclude Include="Source\Grenade.h" />
+    <ClInclude Include="Source\ImGuiRenderer.h" />
+    <ClInclude Include="Source\InputMap.h" />
+    <ClInclude Include="Source\Knight.h" />
+    <ClInclude Include="Source\KnightState.h" />
+    <ClInclude Include="Source\Mage.h" />
+    <ClInclude Include="Source\Manager.h" />
+    <ClInclude Include="Source\Map001.h" />
+    <ClInclude Include="Source\Map001BossRoomTeleport.h" />
+    <ClInclude Include="Source\Map001Key.h" />
+    <ClInclude Include="Source\MapCollisionManager.h" />
+    <ClInclude Include="Source\MapTile.h" />
+    <ClInclude Include="Source\MapTileManager.h" />
+    <ClInclude Include="Source\ModelCollider.h" />
+    <ClInclude Include="Source\ModelObject.h" />
+    <ClInclude Include="Source\NetworkController.h" />
+    <ClInclude Include="Source\ObjectManager.h" />
+    <ClInclude Include="Source\Player.h" />
+    <ClInclude Include="Source\PlayerCollisionObject.h" />
+    <ClInclude Include="Source\PlayerManager.h" />
+    <ClInclude Include="Source\PlayerState.h" />
+    <ClInclude Include="Source\Projectile.h" />
+    <ClInclude Include="Source\ProjectileManager.h" />
+    <ClInclude Include="Source\Rogue.h" />
+    <ClInclude Include="Source\RogueState.h" />
+    <ClInclude Include="Source\Scene.h" />
+    <ClInclude Include="Source\SceneGame.h" />
+    <ClInclude Include="Source\SceneGameState.h" />
+    <ClInclude Include="Source\SceneManager.h" />
+    <ClInclude Include="Source\SceneTitle.h" />
+    <ClInclude Include="Source\SceneTitleState.h" />
+    <ClInclude Include="Source\SkeletonMinion.h" />
+    <ClInclude Include="Source\SkeletonMinionState.h" />
+    <ClInclude Include="Source\SphereCollider.h" />
+    <ClInclude Include="Source\Stage.h" />
+    <ClInclude Include="Source\StageManager.h" />
+    <ClInclude Include="Source\StateMachine.h" />
+    <ClInclude Include="Source\TestingStage.h" />
+    <ClInclude Include="Source\ThridPersonCameraController.h" />
+    <ClInclude Include="Source\TwoHandedAxe.h" />
+    <ClInclude Include="Source\UIManager.h" />
+    <ClInclude Include="Source\UnrotatedBoxCollider.h" />
+    <ClInclude Include="Source\url.h" />
+    <ClInclude Include="Source\Widget.h" />
+    <ClInclude Include="Source\WidgetBossHp.h" />
+    <ClInclude Include="Source\WidgetButton.h" />
+    <ClInclude Include="Source\WidgetButtonImage.h" />
+    <ClInclude Include="Source\WidgetButtonText.h" />
+    <ClInclude Include="Source\WidgetCrosshair.h" />
+    <ClInclude Include="Source\WidgetDragFloat.h" />
+    <ClInclude Include="Source\WidgetEnemiesHp.h" />
+    <ClInclude Include="Source\WidgetGem.h" />
+    <ClInclude Include="Source\WidgetImage.h" />
+    <ClInclude Include="Source\WidgetInputBool.h" />
+    <ClInclude Include="Source\WidgetLogin.h" />
+    <ClInclude Include="Source\WidgetMenu.h" />
+    <ClInclude Include="Source\WidgetPlayerHP.h" />
+    <ClInclude Include="Source\WidgetRoomOption.h" />
+    <ClInclude Include="Source\WidgetSettingWindow.h" />
+    <ClInclude Include="Source\WidgetSkillTimer.h" />
+    <ClInclude Include="Source\WidgetText.h" />
+    <ClInclude Include="TeNTaCleLib\Audio.h" />
+    <ClInclude Include="TeNTaCleLib\Console.h" />
+    <ClInclude Include="TeNTaCleLib\Encode.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\AssimpImporter.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\ColorGradingShader.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\DebugRenderer.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\FinalpassShader.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\FrameBuffer.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\GaussianBlurShader.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\Gizmos.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\GpuResourceUtils.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\Graphics.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\Light.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\LightManager.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\LineRenderer.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\LuminanceExtractionShader.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\MaskShader.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\Misc.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\Model.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\ModelResource.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\ModelShader.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\PhongShader.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\PostEffect.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\PostprocessingRenderer.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\RenderContext.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\RenderState.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\ResourceManager.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\Shader.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\SkydomeShader.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\Sprite.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\SpriteShader.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\TextSprite.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\ToonShader.h" />
+    <ClInclude Include="TeNTaCleLib\Graphics\UVScrollShader.h" />
+    <ClInclude Include="TeNTaCleLib\Input.h" />
+    <ClInclude Include="TeNTaCleLib\Mathf.h" />
+    <ClInclude Include="TeNTaCleLib\Network\HttpRequest.h" />
+    <ClInclude Include="TeNTaCleLib\Network\Network.h" />
+    <ClInclude Include="TeNTaCleLib\Network\Socket.h" />
+    <ClInclude Include="TeNTaCleLib\Network\TCPSocket.h" />
+    <ClInclude Include="TeNTaCleLib\Network\UDPSocket.h" />
+    <ClInclude Include="TeNTaCleLib\Singleton.h" />
+    <ClInclude Include="TeNTaCleLib\tentacle_lib.h" />
+    <ClInclude Include="TeNTaCleLib\Timer.h" />
+    <ClInclude Include="TeNTaCleLib\TransformUtils.h" />
+    <ClInclude Include="TeNTaCleLib\XMFLOAT.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\ColorGrading.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\Debug.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\DefaultModel.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\FilterFunctions.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\Finalpass.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\FullScreenQuad.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\GaussianBlur.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\Gizmos.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\Light.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\Line.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\LuminanceExtraction.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\Mask.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\Phong.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\PostEffect.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\Skinning.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\Skydome.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\Sprite.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\Toon.hlsli" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\UVScroll.hlsli" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\BloomPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\ColorGradingPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\DebugPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\DebugVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\DefaultModelPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\DefaultModelVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\FinalpassPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\FullScreenQuadVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\GaussianBlurPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\GizmosPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\GizmosVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\LinePS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\LineVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\LuminanceExtractionPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\MaskPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\PhongPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\PhongVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\SkydomePS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\SkydomeVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\SpritePS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\SpriteVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\ToonPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\ToonVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\UVScrollPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DebugWin7|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\directxtex_desktop_2019.2023.6.14.1\build\native\directxtex_desktop_2019.targets" Condition="Exists('packages\directxtex_desktop_2019.2023.6.14.1\build\native\directxtex_desktop_2019.targets')" />
+    <Import Project="packages\Microsoft.XAudio2.Redist.1.2.11\build\native\Microsoft.XAudio2.Redist.targets" Condition="Exists('packages\Microsoft.XAudio2.Redist.1.2.11\build\native\Microsoft.XAudio2.Redist.targets')" />
+    <Import Project="packages\directxtk_desktop_win10.2023.4.28.1\build\native\directxtk_desktop_win10.targets" Condition="Exists('packages\directxtk_desktop_win10.2023.4.28.1\build\native\directxtk_desktop_win10.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>このプロジェクトは、このコンピューター上にない NuGet パッケージを参照しています。それらのパッケージをダウンロードするには、[NuGet パッケージの復元] を使用します。詳細については、http://go.microsoft.com/fwlink/?LinkID=322105 を参照してください。見つからないファイルは {0} です。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\directxtex_desktop_2019.2023.6.14.1\build\native\directxtex_desktop_2019.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\directxtex_desktop_2019.2023.6.14.1\build\native\directxtex_desktop_2019.targets'))" />
+    <Error Condition="!Exists('packages\Microsoft.XAudio2.Redist.1.2.11\build\native\Microsoft.XAudio2.Redist.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.XAudio2.Redist.1.2.11\build\native\Microsoft.XAudio2.Redist.targets'))" />
+    <Error Condition="!Exists('packages\directxtk_desktop_win10.2023.4.28.1\build\native\directxtk_desktop_win10.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\directxtk_desktop_win10.2023.4.28.1\build\native\directxtk_desktop_win10.targets'))" />
+  </Target>
+</Project>

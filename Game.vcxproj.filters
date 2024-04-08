@@ -1,0 +1,1028 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4b1af1d4-0c5c-43a7-a8be-110dfadc43cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TeNTaCleLib">
+      <UniqueIdentifier>{9f53ab69-73ce-4cca-a752-b918ba092ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TeNTaCleLib\Graphics">
+      <UniqueIdentifier>{225799b2-61cc-47c4-b2a0-77020faed119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{69302910-e130-4060-b59e-3741ece4d812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\imgui-docking">
+      <UniqueIdentifier>{38a7c707-acaf-4c4d-b281-7e41d03d18e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TeNTaCleLib\Graphics\HLSL">
+      <UniqueIdentifier>{5af3ea15-88df-417b-a195-8cd7bfe7fb82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TeNTaCleLib\Graphics\Shader">
+      <UniqueIdentifier>{664dc571-88f8-42d8-a024-b82b4d6088a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene">
+      <UniqueIdentifier>{ea8000ff-e198-4e5f-9331-68f44bd4bf83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object">
+      <UniqueIdentifier>{b10dbe5d-dc77-4938-92a4-41f344e359b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Camera">
+      <UniqueIdentifier>{72b65d32-f190-4878-8a8f-61eec5832d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Collision">
+      <UniqueIdentifier>{8a57ee01-4ea4-4c4f-ba63-d694977987ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Manager">
+      <UniqueIdentifier>{e21503fe-7d3d-41cf-aaa7-af665c9fd209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI">
+      <UniqueIdentifier>{3758aa09-a5ab-4b0a-b7f4-4d0d1625df2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TeNTaCleLib\Network">
+      <UniqueIdentifier>{5013d4b7-4a82-497b-ab16-b1fc3e18843a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Network">
+      <UniqueIdentifier>{c57c8eab-2e35-4573-bbb9-1aeb60e45eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Character">
+      <UniqueIdentifier>{9b62b4e2-7b29-4fe2-905c-bc0bffa5b97d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Map">
+      <UniqueIdentifier>{596449ed-4377-42e6-97a7-e86f211b2452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Character\Player">
+      <UniqueIdentifier>{8e3f34a7-e868-4aff-8d6f-2a42ce7b514a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Character\Enemy">
+      <UniqueIdentifier>{ebda03a0-4bbb-46a3-97c8-2c66ed7b8859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Projectile">
+      <UniqueIdentifier>{bf0ea208-7152-40fa-b61e-b273d51d6bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\Stage">
+      <UniqueIdentifier>{9e79a31b-81de-4b34-8004-18311147426c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\Widget">
+      <UniqueIdentifier>{f573ff80-06c6-46e9-a04e-b27aa36e1577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\State">
+      <UniqueIdentifier>{29feaf27-bb1d-48ff-8514-fd3f71e00284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Collision">
+      <UniqueIdentifier>{5480d6ba-f1b5-49e8-b610-5afb625c8784}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TeNTaCleLib\Audio.cpp">
+      <Filter>TeNTaCleLib</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Input.cpp">
+      <Filter>TeNTaCleLib</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\tentacle_lib.cpp">
+      <Filter>TeNTaCleLib</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Timer.cpp">
+      <Filter>TeNTaCleLib</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\ModelResource.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\PostEffect.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\RenderState.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\ResourceManager.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\Sprite.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\TextSprite.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\AssimpImporter.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\FrameBuffer.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\Gizmos.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\GpuResourceUtils.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\Graphics.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGuiRenderer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\TransformUtils.cpp">
+      <Filter>TeNTaCleLib</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\Model.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui-docking\imgui_draw.cpp">
+      <Filter>External\imgui-docking</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui-docking\imgui_widgets.cpp">
+      <Filter>External\imgui-docking</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui-docking\imgui.cpp">
+      <Filter>External\imgui-docking</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui-docking\imgui_demo.cpp">
+      <Filter>External\imgui-docking</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\Light.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\LightManager.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\LineRenderer.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\DebugRenderer.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\PostprocessingRenderer.cpp">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\ColorGradingShader.cpp">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\FinalpassShader.cpp">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\GaussianBlurShader.cpp">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\LuminanceExtractionShader.cpp">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\MaskShader.cpp">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\ModelShader.cpp">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\PhongShader.cpp">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\SkydomeShader.cpp">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\SpriteShader.cpp">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\ToonShader.cpp">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Graphics\UVScrollShader.cpp">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CameraController.cpp">
+      <Filter>TeNTaCleLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>TeNTaCleLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneLoading.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneGame.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModelObject.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FreeCameraController.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Mathf.cpp">
+      <Filter>TeNTaCleLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UnrotatedBoxCollider.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collider.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MapCollisionManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Dialog.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Network\Socket.cpp">
+      <Filter>TeNTaCleLib\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Network\TCPSocket.cpp">
+      <Filter>TeNTaCleLib\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Network\UDPSocket.cpp">
+      <Filter>TeNTaCleLib\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Network\Network.cpp">
+      <Filter>TeNTaCleLib\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ClientNetworkController.cpp">
+      <Filter>Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HostNetworkController.cpp">
+      <Filter>Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneTitle.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Console.cpp">
+      <Filter>TeNTaCleLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameData.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ThridPersonCameraController.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StageManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MapTile.cpp">
+      <Filter>Source\Object\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModelCollider.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Character.cpp">
+      <Filter>Source\Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Barbarian.cpp">
+      <Filter>Source\Object\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Knight.cpp">
+      <Filter>Source\Object\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mage.cpp">
+      <Filter>Source\Object\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rogue.cpp">
+      <Filter>Source\Object\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Source\Object\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SkeletonMinion.cpp">
+      <Filter>Source\Object\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy.cpp">
+      <Filter>Source\Object\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateMachine.cpp">
+      <Filter>Source\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerState.cpp">
+      <Filter>Source\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BarbarianState.cpp">
+      <Filter>Source\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KnightState.cpp">
+      <Filter>Source\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RogueState.cpp">
+      <Filter>Source\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TwoHandedAxe.cpp">
+      <Filter>Source\Object\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Projectile.cpp">
+      <Filter>Source\Object\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Arrow.cpp">
+      <Filter>Source\Object\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SphereCollider.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyState.cpp">
+      <Filter>Source\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SkeletonMinionState.cpp">
+      <Filter>Source\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CollisionDataManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MapTileManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stage.cpp">
+      <Filter>Source\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TestingStage.cpp">
+      <Filter>Source\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BoundingBoxCollider.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map001.cpp">
+      <Filter>Source\Object\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetImage.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetCrosshair.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneGameState.cpp">
+      <Filter>Source\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetText.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetPlayerHP.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetEnemiesHp.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Encode.cpp">
+      <Filter>TeNTaCleLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerCollisionObject.cpp">
+      <Filter>Source\Object\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map001BossRoomTeleport.cpp">
+      <Filter>Source\Object\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map001Key.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneTitleState.cpp">
+      <Filter>Source\State</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui-docking\imgui_tables.cpp">
+      <Filter>External\imgui-docking</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui-docking\imgui_impl_dx11.cpp">
+      <Filter>External\imgui-docking</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui-docking\imgui_impl_win32.cpp">
+      <Filter>External\imgui-docking</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EffectManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Effect.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetSkillTimer.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Grenade.cpp">
+      <Filter>Source\Object\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui-docking\profiler.cpp">
+      <Filter>External\imgui-docking</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui-docking\imgTimer.cpp">
+      <Filter>External\imgui-docking</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Chest.cpp">
+      <Filter>Source\Object\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ChestState.cpp">
+      <Filter>Source\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetBossHp.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetButton.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetSettingWindow.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetButtonImage.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetInputBool.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetDragFloat.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetButtonText.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetMenu.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="TeNTaCleLib\Network\HttpRequest.cpp">
+      <Filter>TeNTaCleLib\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetRoomOption.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetLogin.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WidgetGem.cpp">
+      <Filter>Source\UI\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\url.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TeNTaCleLib\Audio.h">
+      <Filter>TeNTaCleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Input.h">
+      <Filter>TeNTaCleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\tentacle_lib.h">
+      <Filter>TeNTaCleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Timer.h">
+      <Filter>TeNTaCleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\Misc.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\ModelResource.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\PostEffect.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\RenderContext.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\RenderState.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\ResourceManager.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\Shader.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\Sprite.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\TextSprite.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\AssimpImporter.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\FrameBuffer.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\Gizmos.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\GpuResourceUtils.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\Graphics.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\Light.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGuiRenderer.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\TransformUtils.h">
+      <Filter>TeNTaCleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\XMFLOAT.h">
+      <Filter>TeNTaCleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\Model.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui-docking\imgui_internal.h">
+      <Filter>External\imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui-docking\imstb_rectpack.h">
+      <Filter>External\imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui-docking\imstb_textedit.h">
+      <Filter>External\imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui-docking\imstb_truetype.h">
+      <Filter>External\imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui-docking\imconfig.h">
+      <Filter>External\imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui-docking\imgui.h">
+      <Filter>External\imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\LightManager.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\DebugRenderer.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\LineRenderer.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\PostprocessingRenderer.h">
+      <Filter>TeNTaCleLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\ColorGradingShader.h">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\FinalpassShader.h">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\GaussianBlurShader.h">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\LuminanceExtractionShader.h">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\MaskShader.h">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\ModelShader.h">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\PhongShader.h">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\SkydomeShader.h">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\SpriteShader.h">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\ToonShader.h">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Graphics\UVScrollShader.h">
+      <Filter>TeNTaCleLib\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CameraController.h">
+      <Filter>TeNTaCleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>TeNTaCleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneGame.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModelObject.h">
+      <Filter>Source\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject.h">
+      <Filter>Source\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FreeCameraController.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Mathf.h">
+      <Filter>TeNTaCleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collider.h">
+      <Filter>Source\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UnrotatedBoxCollider.h">
+      <Filter>Source\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MapCollisionManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Manager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Singleton.h">
+      <Filter>TeNTaCleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ObjectManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Dialog.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EffectManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Network\Socket.h">
+      <Filter>TeNTaCleLib\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Network\TCPSocket.h">
+      <Filter>TeNTaCleLib\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Network\UDPSocket.h">
+      <Filter>TeNTaCleLib\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Network\Network.h">
+      <Filter>TeNTaCleLib\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NetworkController.h">
+      <Filter>Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneTitle.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputMap.h">
+      <Filter>Source\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Console.h">
+      <Filter>TeNTaCleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameData.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ThridPersonCameraController.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StageManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MapTile.h">
+      <Filter>Source\Object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModelCollider.h">
+      <Filter>Source\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Character.h">
+      <Filter>Source\Object\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Barbarian.h">
+      <Filter>Source\Object\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Knight.h">
+      <Filter>Source\Object\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mage.h">
+      <Filter>Source\Object\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rogue.h">
+      <Filter>Source\Object\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>Source\Object\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SkeletonMinion.h">
+      <Filter>Source\Object\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy.h">
+      <Filter>Source\Object\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemyManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateMachine.h">
+      <Filter>Source\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseState.h">
+      <Filter>Source\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerState.h">
+      <Filter>Source\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BarbarianState.h">
+      <Filter>Source\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KnightState.h">
+      <Filter>Source\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RogueState.h">
+      <Filter>Source\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TwoHandedAxe.h">
+      <Filter>Source\Object\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Projectile.h">
+      <Filter>Source\Object\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ProjectileManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Arrow.h">
+      <Filter>Source\Object\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SphereCollider.h">
+      <Filter>Source\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemyState.h">
+      <Filter>Source\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SkeletonMinionState.h">
+      <Filter>Source\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision.h">
+      <Filter>Source\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CollisionDataManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MapTileManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage.h">
+      <Filter>Source\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TestingStage.h">
+      <Filter>Source\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BoundingBoxCollider.h">
+      <Filter>Source\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map001.h">
+      <Filter>Source\Object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Widget.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetImage.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetCrosshair.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneGameState.h">
+      <Filter>Source\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetText.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetPlayerHP.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetEnemiesHp.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Encode.h">
+      <Filter>TeNTaCleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerCollisionObject.h">
+      <Filter>Source\Object\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map001BossRoomTeleport.h">
+      <Filter>Source\Object\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map001Key.h">
+      <Filter>Source\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneTitleState.h">
+      <Filter>Source\State</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui-docking\imgui_impl_dx11.h">
+      <Filter>External\imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui-docking\imgui_impl_win32.h">
+      <Filter>External\imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Effect.h">
+      <Filter>Source\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetSkillTimer.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Grenade.h">
+      <Filter>Source\Object\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui-docking\profiler.h">
+      <Filter>External\imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui-docking\imgTimer.h">
+      <Filter>External\imgui-docking</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Chest.h">
+      <Filter>Source\Object\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ChestState.h">
+      <Filter>Source\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetBossHp.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetSettingWindow.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetButton.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetButtonImage.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetInputBool.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetDragFloat.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetMenu.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetButtonText.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="TeNTaCleLib\Network\HttpRequest.h">
+      <Filter>TeNTaCleLib\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetRoomOption.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetLogin.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\url.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WidgetGem.h">
+      <Filter>Source\UI\Widget</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="TeNTaCleLib\Graphics\HLSL\DefaultModel.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\FilterFunctions.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\Finalpass.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\FullScreenQuad.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\GaussianBlur.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\Gizmos.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\Light.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\Line.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\LuminanceExtraction.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\Mask.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\Phong.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\PostEffect.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\Skinning.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\Skydome.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\Sprite.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\Toon.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\UVScroll.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\ColorGrading.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+    <None Include="TeNTaCleLib\Graphics\HLSL\Debug.hlsli">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\DefaultModelPS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\DefaultModelVS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\FinalpassPS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\FullScreenQuadVS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\GaussianBlurPS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\GizmosPS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\GizmosVS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\LinePS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\LineVS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\LuminanceExtractionPS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\MaskPS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\PhongPS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\PhongVS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\SkydomePS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\SkydomeVS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\SpritePS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\SpriteVS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\ToonPS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\ToonVS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\UVScrollPS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\BloomPS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\ColorGradingPS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\DebugPS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="TeNTaCleLib\Graphics\HLSL\DebugVS.hlsl">
+      <Filter>TeNTaCleLib\Graphics\HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
